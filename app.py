@@ -6,7 +6,7 @@ from tensorflow.keras.applications.inception_resnet_v2 import preprocess_input
 from PIL import Image
 
 # Load the trained CNN model
-model = tf.keras.models.load_model('cnn_model.h5')
+model = tf.keras.models.load_model('cnn_model.keras')
 
 # Function to preprocess the uploaded image
 def preprocess_image(img, target_size):
